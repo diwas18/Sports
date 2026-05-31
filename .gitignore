@@ -23,4 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+.Backend/node_modules/
+Frontend/node_modules/
+
 .env
+Backend/.env
+Frontend/.env
+
+dist/
+build/
