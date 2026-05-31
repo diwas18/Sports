@@ -1,0 +1,23 @@
+{
+  "name": "mern-starting",
+  "version": "1.0.0",
+  "description": "Sports Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backend && npm install --prefix Frontend",
+    "dev:backend": "npm run dev --prefix Backend",
+    "dev:frontend": "npm run dev --prefix Frontend",
+    "dev": "npm run dev:backend & npm run dev:frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwas18/Sports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwas18/Sports/issues"
+  },
+  "homepage": "https://github.com/diwas18/Sports#readme"
+}
